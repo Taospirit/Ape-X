@@ -60,7 +60,7 @@ def argparser():
     parser.add_argument('--prios_queue_size', type=int, default=16)
     parser.add_argument('--max_norm', type=float, default=40.0,
                         help='Maximum gradient norm to clip')
-    parser.add_argument('--cuda', action='store_true', default=False,
+    parser.add_argument('--cuda', action='store_true', default=True,
                         help='Enables CUDA training')
     parser.add_argument('--target_update_interval', type=int, default=2500,
                         help='Interval of updating target network')
