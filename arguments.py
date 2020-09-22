@@ -14,7 +14,7 @@ def argparser():
                         help='Discount factor for multi-step learning')
 
     # Environment Arguments
-    parser.add_argument('--env', type=str, default="Pong-v0",
+    parser.add_argument('--env', type=str, default="PongNoFrameskip-v4",
                         help='Atari environment to use')
     parser.add_argument('--episode_life', type=int, default=1,
                         help='Whether env has episode life(1) or not(0)')
